@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <div>
-            <img>
+    <header class="header">
+        <div class="header__logo-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo__img" src="../../assets/icons/bamboo-icon.svg" alt="bamboo">
+                    <h1 class="logo__text">PetStory online</h1>
+                </a>
+            </div>
+            <div class="nav">
+                <nav>
+                    <a href=""><span class="nav__el nav__el-1">About</span></a>
+                    <a href=""><span class="nav__el">Map</span></a>
+                    <a href=""><span class="nav__el">Zoos</span></a>
+                    <a href=""><span class="nav__el">Donate</span></a>
+                    <a href=""><span class="nav__el">Contact us</span></a>
+                </nav>
+            </div>
         </div>
-        <div>
-            <nav>
-                <a href="">About</a>
-                <a href="">Map</a>
-                <a href="">Zoos</a>
-                <a href="">Donate</a>
-                <a href="">Contact us</a>
-            </nav>
-        </div>
-        <div>
-            <a href="">Designed by ©</a>
+        <div class="copyright">
+            <a href=""><span class="copyright__el">Designed by ©</span></a>
         </div>
     </header>
     <main>
-        <section>
-            <div>
-                <p>Watch your favorite animal online</p>
+        <section class="first-block">
+            <div class="first-block__circle">
+                <p class="first-block__circle__text">Watch your <span class="first-block__circle__text_yellow">favorite</span> animal online</p>
             </div>
-            <div>
-                <button>watсh online</button>
+            <div class="first-block__button">
+                <a class="first-block__button__text" href="#">watсh online</a>
             </div>
         </section>
-        <section>
+        <section class="second-block">
             <div>
-                <img>
+                <img src="../../assets/images/bamboo-cap.png">
             </div>
             <div>
                 <h2>The Backstage of the Wilderness World.</h2>
